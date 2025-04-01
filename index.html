@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="sideNav">
+        <ul class="navbar-nav">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <!-- <li><a href="#experience" class="nav-link">Experience</a></li> -->
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#interests" class="nav-link">Interests</a></li>
+            <li><a href="#awards" class="nav-link">Certificates</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="resume-section">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p><b><h3>Hi, I'm MANONMANI.</b></h3><br>
+                        Passionate about Cloud Computing & DevOps, with AWS certification and hands-on experience in CI/CD, automation, and scalable deployments. A Java enthusiast who enjoys solving complex problems and building robust applications. 
+                        Skilled in the MERN stack, I’ve developed a Student Management System and am currently working on an E-commerce Bookstore📚
+                        With a strong foundation in SQL & database management, I ensure efficiency and scalability in every project. A problem-solver, fast learner, and team player, always eager to innovate, collaborate, and make an impact. Let’s create something amazing! 💡✨</p>
+                    <a href="res2.pdf" target="_blank" class="cta-button">Download Resume</a>
+        
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/manonmani-g/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="social-icon" href="https://github.com/Mano1D" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="social-icon" href="https://leetcode.com/u/Manonmani19/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                        <a class="social-icon" href="https://www.geeksforgeeks.org/user/manonmanoccj/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-book"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="profile.jpeg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Sections -->
+        <!-- <section id="experience" class="resume-section">
+            <h2>Experience</h2>
+            <p>Details about your work experience.</p>
+        </section> -->
+
+        
+        <section id="education" class="resume-section">
+            <h2>🎓 Education</h2>
+            <div class="education-timeline">
+                <!-- Education Item 1 -->
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Karpagam Institute Of Technology</h3>
+                        <p><strong>B.Tech - Information Technology</strong></p>
+                        <p><span class="highlight">GPA: 8.11</span></p>
+                        <p><span class="date">2022 - 2026</span></p>
+                    </div>
+                </div>
+        
+                <!-- Education Item 2 -->
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Sri Jayendra Swamigal Silver Jubilee Hr. Sec. Mat. School</h3>
+                        <p><strong>Higher Secondary Education</strong></p>
+                        <p><span class="highlight">Percentage: 87%</span></p>
+                        <p><span class="date">2020 - 2022</span></p>
+                    </div>
+                </div>
+        
+                <!-- Education Item 3 -->
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Socrates Matriculation School</h3>
+                        <p><strong>SSLC</strong></p>
+                        <p><span class="highlight">Percentage: 98%</span></p>
+                        <p><span class="date">2006 - 2020</span></p>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <h3>📊 Coding Progress</h3>
+                    <div class="progress-bar">
+                        <span>LeetCode</span>
+                        <div class="progress">
+                            <div class="progress-fill leetcode" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <span>GeeksforGeeks</span>
+                        <div class="progress">
+                            <div class="progress-fill gfg" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="resume-section">
+            <h2>Skills</h2>
+            <div class="skill-tabs">
+                <button class="tab-button active" data-tab="skillSet">Skill Set</button>
+                <button class="tab-button" data-tab="softSkills">Soft Skills</button>
+            </div>
+            <div class="tab-content">
+                <!-- Skill Set Section -->
+                <div id="skillSet" class="tab-pane active">
+                    <ul class="skill-list">
+                        <li><i class="fas fa-code"></i> Java Programming</li>
+                        <li><i class="fas fa-code"></i> Python Programming</li>
+                        <li><i class="fas fa-cloud"></i> Cloud Computing</li>
+                        <li><i class="fas fa-cloud"></i> AWS Services</li>
+                        <li><i class="fas fa-tools"></i> DevOps (Learning)</li>
+                        <li><i class="fab fa-react"></i> MERN Stack</li>
+                        <li><i class="fas fa-database"></i> MySQL</li>
+                    </ul>
+                </div>
+        
+                <!-- Soft Skills Section -->
+                <div id="softSkills" class="tab-pane">
+                    <ul class="skill-list">
+                        <li><i class="fas fa-user-tie"></i> Leadership</li>
+                        <li><i class="fas fa-comments"></i> Communication</li>
+                        <li><i class="fas fa-bolt"></i> Fast Learner</li>
+                        <li><i class="fas fa-lightbulb"></i> Problem Solving</li> 
+                        <li><i class="fas fa-search"></i> Research & Curiosity</li> 
+                        <li><i class="fas fa-users"></i> Relationship Building</li> 
+                        <li><i class="fas fa-people-carry"></i> Teamwork & Collaboration</li> 
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="resume-section">
+            <h2>Projects</h2>
+            <div class="projects-section-content">
+                <!-- Project 1 -->
+<div class="project-card">
+    <div class="project-info">
+        <h3 class="project-title">Student Detail Management System</h3>
+        <p>A full-fledged MERN stack application to manage student details with update, view, and delete functionalities.</p>
+        <p><b>Tools: </b>React, Node.js, MongoDB, Express</p>
+        <!-- //<a href="#" class="project-link">View Project</a> -->
+    </div>
+    <div class="project-image">
+        <img src="sm1.png" alt="Project 1" />
+    </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+    <div class="project-info">
+        <h3 class="project-title">Book E-commerce Website</h3>
+        <p>A React-based e-commerce platform for books, integrated with AWS services for backend operations.</p>
+        <!-- //<a href="http://localhost:3001/Home" class="project-link">View Project</a> -->
+        <p><b>Tools: </b>React, Node.js, MongoDB, Express, AWS</p>
+    </div>
+    <div class="project-image">
+        <img src="sm2.png" alt="Project 2" />
+    </div>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card">
+    <div class="project-info">
+        <h3 class="project-title">AI-Powered IDE</h3>
+        <p>Developing an IDE with OpenAI integration for error identification and debugging, using Python for the backend and HTML, CSS, and JavaScript for the frontend.</p>
+        <!-- //<a href="#" class="project-link">View Project</a> -->
+    </div>
+    <div class="project-image">
+        <img src="p3.png" alt="Project 3" />
+    </div>
+</div>
+
+<!-- Project 4 -->
+<div class="project-card">
+    <div class="project-info">
+        <h3 class="project-title">AWS Mini Projects</h3>
+        <p>Hands-on experience with S3, EC2, DynamoDB, and API Gateway, including file updates, website deployment, hosting, and EC2 CLI usage. And also learning other services.</p>
+        <!-- //<a href="#" class="project-link">View Project</a> -->
+    </div>
+    <div class="project-image">
+        <img src="p4.png" alt="Project 4" />
+    </div>
+</div>
+
+<!-- Project 5 -->
+<div class="project-card">
+    <div class="project-info">
+        <h3 class="project-title">DevOps Experience</h3>
+        <p>Built CI/CD pipelines using Jenkins, containerized applications with Docker, orchestrated with Kubernetes, managed infrastructure with Terraform, and tested Kubernetes clusters locally with Minikube, integrating everything with Git for automation.</p>
+        <!-- //<a href="#" class="project-link">View Project</a> -->
+    </div>
+    <div class="project-image">
+        <img src="p5.png" alt="Project 5" />
+    </div>
+</div>
+
+        <section id="interests" class="resume-section">
+            <div class="resume-section-content">
+                <h2 class="mb-5">🚀 Interests</h2>
+                <ul class="interest-list">
+                    <li>🚀 Passionate about <strong>exploring new technologies</strong> & learning Cloud & DevOps ☁️.</li>
+                    <li>💻 Love <strong>problem-solving & coding challenges</strong>, especially in <strong>Java & MERN stack</strong>.</li>
+                    <li>🎯 Active in <strong>competitive coding</strong> on <strong>LeetCode & GFG</strong> to sharpen problem-solving skills.</li>
+                    <li>🌍 Fascinated by <strong>AI for sustainability</strong> & love working on impactful projects.</li>
+                    <li>🗣️ Enjoy <strong>learning new languages</strong> like French and Japanese.</li> 
+                    <li>📚 Love <strong>reading</strong>, <strong>drawing</strong>, and <strong>creative writing</strong> ✨.</li>
+                </ul>
+                <hr>
+            </div>
+        </section>
+
+        <section id="awards" class="resume-section">
+            <h2>Certifications</h2>
+            <div class="slideshow-container">
+                <!-- Slides -->
+                <div class="slides">
+                    <!-- Slides will be dynamically inserted here -->
+                </div>
+        
+                <!-- Navigation Buttons -->
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="contact" class="resume-section">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Let’s Connect!</h3>
+                    <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat.</p>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@example.com">manonmani192005@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i> Phone: <a href="tel:+1234567890">+91 9894939261</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Location: Coimbatore, India</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/manonmani-g/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="social-icon" href="https://github.com/Mano1D" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="social-icon" href="https://leetcode.com/u/Manonmani19/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                        <a class="social-icon" href="https://www.geeksforgeeks.org/user/manonmanoccj/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-book"></i>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Contact Form -->
+                <form class="contact-form" action="https://formspree.io/f/mldgporo" method="POST">
+                    <h3>Send Me a Message</h3>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="App.js"></script>
+</body>
+</html>
